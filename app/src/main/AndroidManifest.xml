@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.mandy.getthearea">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/measuring_tape"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="in.mandy.getthearea.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".case_one" android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="in.mandy.getthearea.case_one" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".case_two" android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="in.mandy.getthearea.case_two" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".case_three" android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="in.mandy.getthearea.case_three" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".result">
+            <intent-filter>
+                <action android:name="in.mandy.getthearea.result" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

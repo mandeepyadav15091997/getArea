@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Get The Area</string>
+    <string name="select_the_number_of_sides_in_your_plot">Select The Number Of Sides In Your Plot</string>
+    <string name="three_sides">Three Sides</string>
+    <string name="four_side">Four Side</string>
+    <string name="four_side_with_a_diagonal">Four Side With A Diagonal</string>
+    <string name="ok">ok</string>
+    <string name="title_activity_case1">case1</string>
+    <string name="enter_the_details">Enter The Details:</string>
+    <string name="get_area">GET AREA</string>
+    <string name="side1">side1</string>
+    <string name="side2">side2</string>
+    <string name="side3">side3</string>
+    <string name="meter_s">meter(s)</string>
+    <string name="diagonal_b_w_1_2_amp_3_4"><![CDATA[diagonal b/w 1,2 & 3,4]]></string>
+    <string name="area">AREA:</string>
+    <string name="meter_square">Meter Square :</string>
+    <string name="bigah">Bigah :</string>
+    <string name="acres">Acres :</string>
+    <string name="feet_square">Feet Square :</string>
+    <string name="inch_square">Inch square :</string>
+    <string name="yard_square">Yard Square :</string>
+    <string name="go_to_home">GO TO HOME</string>
+    <string name="hectare">Hectare :</string>
+    <string name="teperory">Default</string>
+    <string name="temperory">temperory</string>
+
+
+</resources>
